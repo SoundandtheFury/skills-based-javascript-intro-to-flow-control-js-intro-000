@@ -26,5 +26,10 @@ return age < 20 && age > 12 ? "You are a teenager" : "You are not a teenager"
 }
 
 function switchAge(age) {
-
+switch(age) {
+  case > 12 && < 20 :
+    return "You are a teenager"
+  default :
+    return "You have an age"
+ }
 }
